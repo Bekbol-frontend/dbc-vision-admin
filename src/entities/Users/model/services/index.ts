@@ -36,5 +36,5 @@ interface IUpdateData {
 }
 
 export const updateUsersRegister = async (data: IUpdateData) => {
-  return await API.patch(`users/user/${data.id}/`, data.data);
+  return await API.put(`users/user/${data.id}/`, data.data);
 };
