@@ -1,0 +1,5 @@
+@import "./var/var.css";
+
+#root {
+    min-height: 100vh;
+}

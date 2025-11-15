@@ -1,0 +1,8 @@
+.headerNav {
+  border-bottom: 1px solid var(--color-gray);
+
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: var(--z-inder-header);
+}

@@ -1,0 +1,20 @@
+.sidebar {
+  border-right: 1px solid var(--color-gray);
+
+  overflow: auto;
+  height: 100vh;
+  position: sticky;
+  inset-inline-start: 0;
+  top: 0;
+  bottom: 0;
+  scrollbar-width: thin;
+  scrollbar-gutter: stable;
+}
+
+.menuWrapper {
+  padding: var(--padding-sm) var(--padding-xs);
+}
+
+.menu {
+  border: none !important;
+}
